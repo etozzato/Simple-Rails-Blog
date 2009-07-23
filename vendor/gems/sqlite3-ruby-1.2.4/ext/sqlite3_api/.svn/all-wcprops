@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api
+END
+sqlite3_api.i
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/sqlite3_api.i
+END
+sqlite3_api.bundle
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/sqlite3_api.bundle
+END
+MANIFEST
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/MANIFEST
+END
+sqlite3_api_wrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/sqlite3_api_wrap.c
+END
+extconf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/extconf.rb
+END
+mkmf.log
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/mkmf.log
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/Makefile
+END

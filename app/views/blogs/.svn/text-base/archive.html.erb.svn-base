@@ -1,0 +1,17 @@
+<h1>\\ <%= @blog.name %> (archive)</h1>
+
+<h4><%= pluralize(@blog.public_count, 'posts') %> since <%= h_date(@blog.created_at) %></h4>
+
+<div id="post-tbl">
+  <table>
+    <tr>
+      <th>Title</th><th>Published At</th>
+    </tr>
+    <%= render :partial => 'post_row', :collection => @blog.posts.public %>
+  </table>
+</div>
+
+<div id="bottom-page-link">
+  <%= link_to("Home page", blog_url(@blog.seo_id)) %>
+</div>
+<div style="clear:both;"></div>

@@ -1,0 +1,124 @@
+8
+
+dir
+11
+http://svn.skeefo.com/blog/vendor/gems/ruby-openid-2.1.7
+http://svn.skeefo.com/blog
+
+
+
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+139c97ab-9add-4034-bfbb-a6858ab1a65a
+
+test
+dir
+
+NOTICE
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+47e0f7416e52de07c533b06fec4708fa
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+LICENSE
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+30d06789c13ea300a246bdcd109048d7
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+lib
+dir
+
+INSTALL
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+1d02e6268f59f38333d0526dd59b8bed
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+CHANGELOG
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+6279678f1dfdac85b9dab826c7177c16
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+UPGRADE
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+59e3f472092ec191c7baaf1f59e57283
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+admin
+dir
+
+README
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+f2f0a93e3dc94a665f525f3694bfff6d
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+examples
+dir
+
+.specification
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+19f45ddf730ef2d97142c0bf65877b00
+2009-07-17T02:19:07.863332Z
+1
+mek
+

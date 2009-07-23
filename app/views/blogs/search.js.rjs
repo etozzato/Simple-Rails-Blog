@@ -1,0 +1,6 @@
+unless @blog
+  page['#search-result'].html 'Blog not found!'
+else
+  page['#search-result'].html "Found! Redirecting to blog in 3 sec.."
+  page['#search-result'].append javascript_tag "setTimeout(\"location.href='/#{@blog.seo_id}/'\",3000)"
+end

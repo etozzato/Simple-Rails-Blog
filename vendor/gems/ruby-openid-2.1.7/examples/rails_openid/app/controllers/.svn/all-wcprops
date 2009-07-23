@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/examples/rails_openid/app/controllers
+END
+consumer_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/examples/rails_openid/app/controllers/consumer_controller.rb
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/examples/rails_openid/app/controllers/application.rb
+END
+server_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/examples/rails_openid/app/controllers/server_controller.rb
+END
+login_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/examples/rails_openid/app/controllers/login_controller.rb
+END

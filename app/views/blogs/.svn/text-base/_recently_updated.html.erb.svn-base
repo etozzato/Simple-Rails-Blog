@@ -1,0 +1,13 @@
+<div id="cloud-label">
+  Recently Updated:
+</div>
+
+<div id="cloud-container">
+  <% tag_cloud @recently_updated, %w(css0 css1 css2 css3 css4) do |blog, css_class| %>
+    <%= link_to(blog.name, blog.seo_id, :class => css_class) %>
+  <% end %>  
+</div>
+
+
+<div style="clear:both;"></div>
+

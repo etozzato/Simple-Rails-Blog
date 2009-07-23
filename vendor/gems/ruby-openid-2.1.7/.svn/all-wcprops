@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/LICENSE
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/INSTALL
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/CHANGELOG
+END
+UPGRADE
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/UPGRADE
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/README
+END
+.specification
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/.specification
+END

@@ -1,0 +1,59 @@
+body {margin:20px; padding:0px;font-size:19px; font-family:Georgia; color:#555; background-color:#111;}
+input {border:1px solid #555; color:#eee;font-size:15px; background-color:#333; padding:5px;}
+textarea {border:1px solid #555; color:#eee;font-size:15px; background-color:#333; padding:5px;}
+
+
+#new-post input[type=text] {width:600px;}
+#new-post textarea {width:600px;height:300px;}
+
+a {color:#777;text-decoration:none;}
+a:hover {color:#999;}
+
+a.seo_id {color:orange;text-decoration:none;}
+a.seo_id:hover {text-decoration:underline;}
+
+
+#error-box a {color:#8A1A28;}
+#warning-box a {color:#FFA500;}
+#notice-box a {color:#8b98ab;}
+
+#container {width:900px; margin:0 auto;}
+#container-box {min-height:450px;}
+
+#right { background-color:#222; float:right; padding:5px; border:1px solid;background:#123; padding:20px}
+#right .tiny {font-family:verdana; font-size:10pt;}
+#right .blog_name {color:orange;}
+
+#blog-search-box {margin:0px auto; background-color:#222; padding:7px; border:1px solid; margin-top:30px;}
+#blog-search-box input[type=text] {width:300px;}
+#blog-search-box #search-result {color:#fff;}
+
+#footer {background-color:#111; width:270px; margin:0px auto;}
+
+#post-tbl table{width:100%;}
+#post-tbl th {font-size:14pt;padding:7px;color:#ccc;}
+#post-tbl td {font-size:13pt;padding:7px;color:#ccc;}
+#post-tbl .odd {background:#222;}
+#post-tbl .even {background:#333;}
+
+#post-tbl td.date {width:180px; text-align:center;}
+#post-tbl td.options {text-align:center; font-size:11pt;}
+
+
+#loading_indicator{ position:absolute; top:0px; right:0px; padding:5px; display:none; }
+
+#post-body {margin-left:10px;background:#444; padding:30px;padding-left:15px;color:#ddd;}
+#post-data {margin-left:10px;border-bottom:1px solid #123; padding-left:15px; margin-top:10px;font-size:11pt; font-style:italic;padding-bottom:8px;}
+
+#bottom-page-link,  #pagination-links {float:right; margin-top:10px; font-size:11pt;}
+#pagination-info {float:left; margin-top:10px; font-size:11pt;}
+
+#recently-updated {margin:0px auto; background-color:#222; padding:7px; border:1px solid; margin-top:30px;}
+#recently-updated .css0 { font-size: 70%; }
+#recently-updated .css1 { font-size: 75%; padding-right:2px;padding-left:2px; }
+#recently-updated .css2 { font-size: 80%; padding-right:4px;padding-left:4px; }
+#recently-updated .css3 { font-size: 85%; padding-right:6px;padding-left:6px; }
+#recently-updated .css4 { font-size: 90%; padding-right:8px;padding-left:8px; }
+
+  #cloud-label {float:left;}
+#cloud-container {float:left;margin-left:200px;}

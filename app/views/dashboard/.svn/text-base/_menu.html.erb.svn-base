@@ -1,0 +1,6 @@
+<div id="dashboard-menu">
+  <ul>
+    <li><%= link_to("Edit blog name", edit_dashboard_blog_url(current_blog)) %></li>
+    <li><%= link_to("Create new post", new_dashboard_post_url) %></li>
+  </ul>
+</div>

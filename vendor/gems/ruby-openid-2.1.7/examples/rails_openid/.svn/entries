@@ -1,0 +1,70 @@
+8
+
+dir
+11
+http://svn.skeefo.com/blog/vendor/gems/ruby-openid-2.1.7/examples/rails_openid
+http://svn.skeefo.com/blog
+
+
+
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+139c97ab-9add-4034-bfbb-a6858ab1a65a
+
+test
+dir
+
+app
+dir
+
+Rakefile
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+bbf560d44f092d22a30d3a562436ad8c
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+script
+dir
+
+config
+dir
+
+doc
+dir
+
+README
+file
+
+
+
+
+2009-07-17T05:52:26.000000Z
+ca3fc66c7915b505d3ee6e271b3c093f
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+public
+dir
+

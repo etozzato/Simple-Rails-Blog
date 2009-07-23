@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/blog/!svn/ver/1/db/migrate
+END
+20090715070032_create_openid_auth.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/blog/!svn/ver/1/db/migrate/20090715070032_create_openid_auth.rb
+END
+20090715070554_create_blogs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blog/!svn/ver/1/db/migrate/20090715070554_create_blogs.rb
+END
+20090715065533_create_sessions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blog/!svn/ver/1/db/migrate/20090715065533_create_sessions.rb
+END
+20090715103033_create_posts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blog/!svn/ver/1/db/migrate/20090715103033_create_posts.rb
+END

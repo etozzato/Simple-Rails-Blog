@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3
+END
+database.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/database.rb
+END
+statement.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/statement.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/version.rb
+END
+translator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/translator.rb
+END
+pragmas.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/pragmas.rb
+END
+resultset.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/resultset.rb
+END
+constants.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/constants.rb
+END
+errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/errors.rb
+END
+value.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/lib/sqlite3/value.rb
+END

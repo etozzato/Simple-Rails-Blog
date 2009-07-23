@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/blog/!svn/ver/1/test/fixtures
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/blog/!svn/ver/1/test/fixtures/users.yml
+END
+blogs.yml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/blog/!svn/ver/1/test/fixtures/blogs.yml
+END

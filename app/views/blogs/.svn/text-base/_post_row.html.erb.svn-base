@@ -1,0 +1,4 @@
+<tr class="<%= cycle("even", "odd") -%>">
+  <td><%= link_to(h(post_row.title), post_url(post_row))  %></td>
+  <td class='date'><%= h_date(post_row.published_at) %></td>
+</tr>

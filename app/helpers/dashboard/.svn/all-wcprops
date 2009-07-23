@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/blog/!svn/ver/1/app/helpers/dashboard
+END
+blog_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/blog/!svn/ver/1/app/helpers/dashboard/blog_helper.rb
+END
+posts_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/blog/!svn/ver/1/app/helpers/dashboard/posts_helper.rb
+END

@@ -1,0 +1,14 @@
+<%= error_messages_for :post, :header_message => nil %>
+
+<h1>\\ <%= @post.title %></h1>
+
+<div id="new-post">
+  <% form_for(:post, @post, :url => dashboard_post_url(@post), :html => {:method => :put}) do |f| %>
+    
+    <%= render :partial => "form", :locals => {:f => f} %>
+    
+    <%= submit_tag('UPDATE', :disable_with => "Wait...") %>
+    or <%= link_to('cancel', dashboard_url, :confirm => "Are you sure? All chenges will be lost!") %>
+  
+  <% end %>  
+</div>

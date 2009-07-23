@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test
+END
+bm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test/bm.rb
+END
+tc_errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test/tc_errors.rb
+END
+tests.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test/tests.rb
+END
+native-vs-dl.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test/native-vs-dl.rb
+END
+tc_integration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test/tc_integration.rb
+END
+tc_database.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test/tc_database.rb
+END
+mocks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/test/mocks.rb
+END

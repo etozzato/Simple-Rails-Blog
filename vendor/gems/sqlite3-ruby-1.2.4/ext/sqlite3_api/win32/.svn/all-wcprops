@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/win32
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/blog/!svn/ver/1/vendor/gems/sqlite3-ruby-1.2.4/ext/sqlite3_api/win32/build.bat
+END

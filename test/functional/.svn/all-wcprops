@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/blog/!svn/ver/1/test/functional
+END
+session_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/blog/!svn/ver/1/test/functional/session_controller_test.rb
+END
+blogs_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blog/!svn/ver/1/test/functional/blogs_controller_test.rb
+END
+posts_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blog/!svn/ver/1/test/functional/posts_controller_test.rb
+END

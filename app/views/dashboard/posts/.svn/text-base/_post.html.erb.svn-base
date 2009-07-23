@@ -1,0 +1,12 @@
+<tr class="<%= cycle("even", "odd") -%>">
+  <td><%= link_to(post.title, post_url(post)) %></td>
+  <td><%= post.is_public? ? 'public' : 'draft' %></td>
+  <td class='date'><%= h_date(post.published_at) %></td>
+  <td class='date'><%= h_date(post.created_at) %></td>
+  <td class='options'>
+    <%= link_to('view', post_url(post)) %> \
+    <%= link_to('toggle', toggle_dashboard_post_url(post)) %> \
+    <%= link_to('edit', edit_dashboard_post_url(post)) %> \ 
+    <%= link_to("delete", dashboard_post_url(post), :method => :delete, :confirm => "Are you sure you want to delete this post?") %>
+  </td>
+</tr>

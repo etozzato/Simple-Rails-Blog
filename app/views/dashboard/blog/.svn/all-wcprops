@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/blog/!svn/ver/8/app/views/dashboard/blog
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/blog/!svn/ver/8/app/views/dashboard/blog/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/blog/!svn/ver/8/app/views/dashboard/blog/index.html.erb
+END

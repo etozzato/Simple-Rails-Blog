@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid
+END
+util.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/util.rb
+END
+message.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/message.rb
+END
+trustroot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/trustroot.rb
+END
+kvpost.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/kvpost.rb
+END
+urinorm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/urinorm.rb
+END
+consumer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/consumer.rb
+END
+dh.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/dh.rb
+END
+cryptutil.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/cryptutil.rb
+END
+fetchers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/fetchers.rb
+END
+kvform.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/kvform.rb
+END
+extras.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/extras.rb
+END
+server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/server.rb
+END
+protocolerror.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/protocolerror.rb
+END
+association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/association.rb
+END
+extension.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/blog/!svn/ver/1/vendor/gems/ruby-openid-2.1.7/lib/openid/extension.rb
+END
