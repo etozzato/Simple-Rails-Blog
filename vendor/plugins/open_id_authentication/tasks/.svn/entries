@@ -1,0 +1,40 @@
+8
+
+dir
+11
+http://svn.skeefo.com/blog/vendor/plugins/open_id_authentication/tasks
+http://svn.skeefo.com/blog
+
+
+
+2009-07-17T02:19:07.863332Z
+1
+mek
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+139c97ab-9add-4034-bfbb-a6858ab1a65a
+
+open_id_authentication_tasks.rake
+file
+
+
+
+
+2009-07-17T05:52:25.000000Z
+54b595ee92e0adb364a9086340b2af51
+2009-07-17T02:19:07.863332Z
+1
+mek
+
