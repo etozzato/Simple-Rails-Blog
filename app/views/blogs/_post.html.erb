@@ -1,7 +1,7 @@
 <h3><%= h(post.title) %></h3>
 
 <div id="post-body">
-  <%= add_breaks(h(post.body)) %>
+  <%= add_breaks(auto_link(h(post.body), :all, :target => "_blank")) %>
 </div>
 
 <div id="post-data">

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <title>BLOG!</title>
+  <title>BLOG! <%= @blog.name if @blog %><%= @post.blog.name if @post %></title>
   <%= stylesheet_link_tag "main.css" %>
   <%= javascript_include_tag 'jquery.js', 'jquery.livequery.js', 'jquery.form.js', 'application' %>
 </head>
@@ -22,7 +22,7 @@
   </div>
     
     <div id="footer">
-      <p>&copy; 2009 <%= auto_link('www.mekdigital.com') %></p>
+      <p>&copy; 2009 <%= auto_link('www.mekdigital.com') %> - <%= link_to("GitHub::Fork", "http://github.com/etozzato/Simple-Rails-Blog") %></p>
     </div>
   </div>
   <span id="loading_indicator"><%= image_tag("ajax-loader.gif") %></span>
