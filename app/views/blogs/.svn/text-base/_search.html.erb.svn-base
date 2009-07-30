@@ -1,7 +1,0 @@
-<% form_tag(search_blogs_url, :id => 'search') do %>
-  <p>
-  Search for a blog: <%= text_field_tag :blog_name %>
-  <%= submit_tag "SEARCH" %>
-  <span id="search-result"></span>
-  </p>
-<% end %>

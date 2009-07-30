@@ -1,7 +1,0 @@
-<p> Title:</p>
-<p><%= f.text_field(:title) %></p>
-
-<p>Body:</p> 
-<p><%= f.text_area(:body) %></p>
-
-<%= hidden_field_tag(:is_public, :value => 'false') if defined?(public_option) %>
