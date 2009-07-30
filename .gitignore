@@ -1,0 +1,5 @@
+*.tmproj
+log/
+tmp/
+config/*.yml
+db/*.sqlite
