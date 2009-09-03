@@ -10,6 +10,13 @@ class BlogsController < ApplicationController
   
   def show
     @blog = Blog.find_by_seo_id(params[:blog])
+    
+    if params[:post]
+      @post = @blog.posts.find_by_seo_id_and_is_public(params[:post], true)
+    else
+      @posts = @blog.public_posts 
+    end
+    
     unless @blog
       # if name was changed while reading.. try with last id/seo
       blog = Blog.locate(self)
@@ -23,6 +30,10 @@ class BlogsController < ApplicationController
       redirect_to blogs_url and return
     end
     @blog.remember(self)
+    #unless params[:post] && @post
+    #  flash[:error] = "Post not Found!"
+    #  redirect_to blogs_url and return
+    #end
     if params[:archive]
       render :action => 'archive'
     end

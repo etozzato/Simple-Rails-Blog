@@ -3,7 +3,8 @@
 <h4><%= pluralize(@blog.public_count, 'posts') %> since <%= h_date(@blog.created_at) %></h4>
 
 <div id="post_list">
-  <%= render :partial => 'post', :collection => @blog.public_posts %>
+  <%= render :partial => 'post', :collection => @posts if @posts %>
+  <%= render :file => './posts/show', :object => @post if @post %>
 </div>
 
 <div id="bottom-page-link">
