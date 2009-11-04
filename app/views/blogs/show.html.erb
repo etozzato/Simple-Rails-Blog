@@ -4,7 +4,7 @@
 
 <div id="post_list">
   <%= render :partial => 'post', :collection => @posts if @posts %>
-  <%= render :partial => "../views/posts/show", :object => @post if @post %>
+  <%= render :partial => "posts/show", :object => @post if @post %>
 </div>
 
 <div id="bottom-page-link">
