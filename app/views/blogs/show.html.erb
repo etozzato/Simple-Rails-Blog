@@ -1,6 +1,6 @@
-<h1>\\ <%= @blog.name %></h1>
-
-<h4><%= pluralize(@blog.public_count, 'posts') %> since <%= h_date(@blog.created_at) %></h4>
+<% if @posts %>
+  <h5 class='subtitle'><%= pluralize(@blog.public_count, 'post') %> in this blog since <%= h_date(@blog.created_at) %></h5>
+<% end %>
 
 <div id="post_list">
   <%= render :partial => 'post', :collection => @posts if @posts %>

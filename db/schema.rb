@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090903030141) do
+ActiveRecord::Schema.define(:version => 20091104010103) do
 
   create_table "blogs", :force => true do |t|
     t.string   "name"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(:version => 20090903030141) do
     t.integer  "posts_count"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "views"
   end
 
   add_index "blogs", ["identity_url"], :name => "index_blogs_on_identity_url"
@@ -47,6 +48,7 @@ ActiveRecord::Schema.define(:version => 20090903030141) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "seo_id"
+    t.integer  "views"
   end
 
   add_index "posts", ["published_at"], :name => "index_posts_on_published_at"

@@ -12,15 +12,14 @@ module ApplicationHelper
   text.gsub(/\r/, '').gsub(/[\n]/, '<br />').gsub(/(\<br \/>){3,}/, "<br /><br />").gsub(/(\<p>&nbsp;<\/p>){3,}/, "<p>&nbsp;</p><p>&nbsp;</p>")
   end
 
-  def tag_cloud(blogs, classes)
-    return if blogs.empty?
-    blogs = blogs
-    max = blogs.first.posts_count
-    blogs = blogs.sort_by(&:rand)
+  def tag_cloud(collection, classes)
+    return if collection.empty?
+    max = collection.first.item_count
+    collection = collection.sort_by(&:rand)
     
-    blogs.each do |blog|
-      index = ((blog.posts_count / max) * (classes.size - 1)).round
-      yield blog, classes[index]
+    collection.each do |item|
+      index = ((item.item_count / max) * (classes.size - 1)).round
+      yield item, classes[index]
     end
   end
   

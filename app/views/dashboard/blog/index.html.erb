@@ -1,5 +1,3 @@
-<h1>\\ dashboard</h1>
-
 <h4>
   <%= pluralize(current_blog.posts_count, 'posts') %>
   (<%= current_blog.public_count %> public) since <%= h_date(current_blog.created_at) %>
@@ -10,9 +8,6 @@
 <% if @posts && @posts.size > 0 %>
   <div id="post-tbl">
     <table>
-      <tr>
-        <th>Title</th><th>Status</th><th>Published At</th><th>Created At</th><th></th>
-      </tr>
       <%= render :partial => 'dashboard/posts/post', :collection => @posts %>
     </table>
   </div>

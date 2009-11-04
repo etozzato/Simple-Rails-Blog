@@ -1,14 +1,16 @@
-<h1>\\ <%= @post.title %></h1>
+<h1><%= @post.title %></h1>
 
 <div id="post-body">
-  <%= add_breaks(auto_link(h(@post.body), :all, :target => "_blank")) %>
+  <%= add_breaks(auto_link((@post.body), :all, :target => "_blank")) %>
 </div>
 
 <div id="post-data">
   <%= @post.published_at ? "published on #{h_date(@post.published_at)}" : 'created' %>
-  in blog 
+  in
   <%= link_to(@post.blog.name, blog_url(@post.blog.seo_id), :class => "seo_id") %>
 </div>
+
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/mekdigital/embed.js"></script><noscript><a href="http://disqus.com/forums/mekdigital/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">powered by <span class="logo-disqus">Disqus</span></a>
 
 <div id="bottom-page-link">
   <%= link_to("Back", :back) %>

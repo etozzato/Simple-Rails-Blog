@@ -2,6 +2,7 @@ class BlogsController < ApplicationController
   
   def index
     @recently_updated = Blog.recently_updated
+    @popular_posts = Post.popular 
   end
   
   def search

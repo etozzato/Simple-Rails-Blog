@@ -5,6 +5,8 @@ class Post < ActiveRecord::Base
   validates_presence_of :title, :body
   
   named_scope :public, :conditions => "published_at IS NOT NULL" 
+  named_scope :popular, :conditions => "published_at IS NOT NULL" 
+  
 
   before_create :set_seo_id
   

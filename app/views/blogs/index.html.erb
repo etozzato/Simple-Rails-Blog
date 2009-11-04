@@ -1,10 +1,16 @@
-<h1>\\ homepage</h1>
+<h1>emanuele tozzato's blog.</h1>
+<img src='./images/emanuele-mek-tozzato.jpeg' alt='emanuele tozzato' class='picture'>
 
+<!--
 <div id="blog-search-box">
-  <%= render :partial => "search" %>
+  render :partial => "search"
 </div>
+-->
 
 <div id="recently-updated">
   <%= render :partial => "recently_updated" if @recently_updated %>
 </div>
 
+<div id="recently-updated">
+  <%= render :partial => "popular_posts" if @popular_posts %>
+</div>

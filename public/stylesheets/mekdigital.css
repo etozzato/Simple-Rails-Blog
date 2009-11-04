@@ -1,0 +1,337 @@
+body {
+	margin:0px;
+	margin-top:20px;
+	text-align:center;
+	font-family: "Book Antiqua", "Bookman Old Style", Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+}
+
+
+image {
+	border:0px;
+}
+
+
+.box {
+	margin-top:20px;
+}
+
+.container {
+	margin: 0 auto;
+	background:#FFF;
+	text-align:left;
+	border:1px solid #fff;
+	padding:5px;
+	width:840px;
+}
+
+
+.inner_box {
+	background: #fff;
+	min-height:500px;
+	padding:5px;
+	text-align:justify;
+	color: #333 !important;
+	font-size:105%;
+}
+
+
+.inner_box a {
+	color:#333;
+	text-decoration:none;
+}
+
+
+.inner_box a:hover {
+	color:orange;
+}
+
+
+.page_title {
+	color:#123456;
+	padding:1px;
+	padding-right:3px;
+	border-bottom:1px solid #333;
+	text-align:right;
+	font-size:120%;
+	margin-bottom:10px;
+	background:url('http://www.mekdigital.com/img/m.gif') left no-repeat;
+
+}
+
+
+.box, input {
+	font-size:80%
+	color:#333;
+}
+
+blockquote {
+	background:#fff;
+	border:1px solid #333;
+	padding:15px;
+}
+
+code {
+        color:#333;
+        font-family: 'Bitstream Vera Sans Mono'; 
+        font-size: 12px;
+}
+
+.post_title {
+	background:#333;
+	color:#fff;
+	padding:5px;
+	border:0px solid #fff;
+	border-bottom:0px solid #333;
+	border-right:0px solid #333;
+	text-align:left;
+	font-size:110%;
+}
+
+.post_title a {
+	color:#ebebeb;
+	text-decoration:none;
+}
+
+.post_title a:hover {
+	color:#orange;
+}
+
+.post_date {
+	text-align:right;
+	font-size:75%;
+	padding:5px;
+	padding-right:10px;
+	color:#333;
+}
+
+
+.post_entry {
+	font-size:90%;
+	background:#ebebeb;
+	padding:10px;
+	border:1px solid #ccc;
+
+}
+
+.post_meta {
+	font-size:75%;
+	padding:5px;
+	padding-left:10px;
+	color:#333;
+	margin-bottom:40px;
+
+}
+
+
+
+.post_comment_header {
+	margin-top:50px;
+	font-weight:bold;
+	padding:1px;
+	padding-right:3px;
+	border-bottom:1px solid #ccc;
+	text-align:right;
+	font-size:95%;
+	margin-bottom:10px;
+}
+
+.add_a_comment {
+	margin-top:60px;
+	font-weight:bold;
+	padding:1px;
+	font-size:95%;
+	margin-bottom:10px;
+	text-align:right;
+}
+
+.odd {
+	font-size:80%;
+	background:#fff;
+	padding-top:10px;
+	border-bottom:1px solid #ccc;
+	margin-top:15px;
+}
+
+.even {
+	font-size:80%;
+	font-size:80%;
+	background:#fff;
+	padding-top:10px;
+	border-bottom:1px solid #ccc;
+	margin-top:15px;
+}
+
+.mycomment {
+	font-size:80%;
+	font-size:80%;
+	background:#fff;
+	padding-top:10px;
+	border-bottom:1px solid #ccc;
+	margin-top:15px;
+	background:url('http://www.mekdigital.com/img/m.gif') right bottom no-repeat
+
+	
+}
+.comment_date {
+}
+
+.column {
+	padding-top:10px;
+	padding-right:25px;
+	padding-left:25px;
+}
+
+
+.menu {
+	margin: 0 auto;
+	color: #FFF;
+	text-align:left;
+	border:1px solid #ebebeb;
+	padding:0px;
+	width:850px;
+	min-height: 30px;
+	background:url('../images/mekdigital_logo.png') right no-repeat #fff
+}
+
+#menu-bar ul {
+  display:inline;
+  list-style-type:none;
+  background-color:#fff;
+  padding:0;
+}
+#menu-bar ul li {
+  float:left;
+  margin:0;
+}
+
+#menu-bar #menu-0, #menu-1, #menu-bar #menu-2, #menu-bar #menu-3, #menu-4, #menu-5, #menu-6, #menu-7 {
+  display:block;
+  width:120px;
+  height:30px;
+  margin:0;
+}
+
+#menu-bar #menu-0 {
+  background:url('../images/menu_0.png') 0 0 no-repeat;
+}
+
+#menu-bar #menu-0:hover {
+  background-position: -120px 0;
+}
+
+#menu-bar #menu-1 {
+  background:url('../images/menu_1.png') 0 0 no-repeat;
+}
+
+#menu-bar #menu-1:hover {
+	background-position: -120px 0;
+}
+
+#menu-bar #menu-2 {
+  background:url('../images/menu_2.png') 0 0 no-repeat;
+}
+
+#menu-bar #menu-2:hover {
+  background-position: -120px 0;
+}
+
+#menu-bar #menu-3 {
+  background:url('../images/menu_3.png') 0 0 no-repeat;
+}
+
+#menu-bar #menu-3:hover {
+  background-position: -120px 0;
+}
+
+
+#menu-bar #menu-4 {
+  background:url('../images/menu_4.png') 0 0 no-repeat;
+}
+
+#menu-bar #menu-4:hover {
+  background-position: -120px 0;
+}
+
+.active {
+	background-position: -120px 0;
+}
+
+img {
+	border:0px;
+}
+
+img.picture { border:1px solid #ccc;}
+
+.menu a {
+	color:#FFF;
+}
+
+
+.menu a:hover {
+	color:orange;
+}
+
+
+.note {
+	color:red;
+	padding-top:100px;
+	font-size:80%;
+	text-align:center;
+}
+
+
+.hilight {
+	color:#123456;
+}
+
+/*
+BLOG CODE	
+*/
+
+.gist {
+  color: #000;
+	font-size:9pt;
+}
+
+#error-box a {color:#8A1A28;}
+#warning-box a {color:#FFA500;}
+#notice-box a {color:#8b98ab;}
+
+#footer {width:470px; margin:0px auto; font-size:8pt;}
+
+#post-tbl table{width:100%;}
+#post-tbl th {font-size:14pt;padding:7px;color:#ccc;}
+#post-tbl td {font-size:13pt;padding:7px;color:#ccc;}
+#post-tbl .odd {background:#222;}
+#post-tbl .even {background:#333;}
+
+#post-tbl td.date {width:180px; text-align:center;}
+#post-tbl td.options {text-align:center; font-size:11pt;}
+
+#post-tbl a {color:#777;text-decoration:none;}
+#post-tbl a:hover {color:#999;}
+
+#post-body {margin-left:10px;background:#ffc; padding:15px;;color:#333; font-size:16px;border:1px solid #ccc;}
+#post-data {margin-left:10px;border-bottom:1px solid #123; padding-left:15px; margin-top:10px;font-size:11pt; font-style:italic;padding-bottom:8px;}
+
+#bottom-page-link,  #pagination-links {float:right; margin-top:10px; font-size:11pt;}
+#pagination-info {float:left; margin-top:10px; font-size:11pt;}
+
+#recently-updated {margin:0px auto;  padding:7px; background-color:#ffc; border-bottom:1px solid; margin-top:30px;}
+#recently-updated .css0 { font-size: 70%; }
+#recently-updated .css1 { font-size: 75%; padding-right:2px;padding-left:2px; }
+#recently-updated .css2 { font-size: 80%; padding-right:4px;padding-left:4px; }
+#recently-updated .css3 { font-size: 85%; padding-right:6px;padding-left:6px; }
+#recently-updated .css4 { font-size: 90%; padding-right:8px;padding-left:8px; }
+
+#cloud-label {float:left;}
+#cloud-container {float:left;margin-left:200px;}
+
+.subtitle {color:#ddd; font-size:11pt; font-style:italic; font-weight:normal;}
+.shift {margin-left:10px; margin-top:-20px;}
+
+#login { float:right; padding:5px; margin-top:50px;}
+
+input.post {width:80%;}
+textarea.post {width:80%;}

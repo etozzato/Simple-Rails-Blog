@@ -1,6 +1,6 @@
 <%= error_messages_for :post, :header_message => nil %>
 
-<h1>\\ <%= @post.title %></h1>
+<h1><%= @post.title %></h1>
 
 <div id="new-post">
   <% form_for(:post, @post, :url => dashboard_post_url(@post), :html => {:method => :put}) do |f| %>

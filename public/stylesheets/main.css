@@ -1,7 +1,11 @@
-body {margin:20px; padding:0px;font-size:19px; font-family:Georgia; color:#555; background-color:#111;}
+body {margin:20px; padding:0px;font-size:19px; font-family:Georgia; color:#555;}
 input {border:1px solid #555; color:#eee;font-size:15px; background-color:#333; padding:5px;}
 textarea {border:1px solid #555; color:#eee;font-size:15px; background-color:#333; padding:5px;}
 
+.gist {
+  color: #000;
+	font-size:9pt;
+}
 
 #new-post input[type=text] {width:600px;}
 #new-post textarea {width:600px;height:300px;}
@@ -39,10 +43,8 @@ a.seo_id:hover {text-decoration:underline;}
 #post-tbl td.date {width:180px; text-align:center;}
 #post-tbl td.options {text-align:center; font-size:11pt;}
 
-
 #loading_indicator{ position:absolute; top:0px; right:0px; padding:5px; display:none; }
-
-#post-body {margin-left:10px;background:#444; padding:30px;padding-left:15px;color:#ddd;}
+#post-body {margin-left:10px;background:#444; padding:15px;;color:#ddd; font-size:16px;}
 #post-data {margin-left:10px;border-bottom:1px solid #123; padding-left:15px; margin-top:10px;font-size:11pt; font-style:italic;padding-bottom:8px;}
 
 #bottom-page-link,  #pagination-links {float:right; margin-top:10px; font-size:11pt;}
@@ -57,3 +59,7 @@ a.seo_id:hover {text-decoration:underline;}
 
   #cloud-label {float:left;}
 #cloud-container {float:left;margin-left:200px;}
+
+.subtitle {color:#ddd; font-size:11pt; font-style:italic; font-weight:normal;}
+.shift {margin-left:10px; margin-top:-20px;}
+

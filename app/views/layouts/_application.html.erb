@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>BLOG! <%= @blog.name if @blog %><%= @post.blog.name if @post %></title>
+  <%= stylesheet_link_tag "mekdigital.css" %>
+  <%= stylesheet_link_tag "embed.css" %>
+  <%= javascript_include_tag 'jquery.js', 'jquery.livequery.js', 'jquery.form.js', 'application' %>
+<script type="text/javascript">
+	<%= 'var disqus_developer = 1;' if Rails.env.development? %>
+</script>
+<style>
+ body {background-color:rgb(<%= rand(150) + 50 %>, <%= rand(150) + 50 %>, <%= rand(150) + 50 %>);}
+</style>
+</head>
+<body>
+  <div id="container">
+    <%= render :partial => "shared/flash_notices" %>
+
+    <div id="right">
+    <%= render :partial => "shared/user_box" %>
+    </div>
+
+    <div style="clear:both;"></div>
+    
+  <div id="container-box">
+    <h4><% unless current_blog%><%= link_to("homepage", homepage_url) %><% end %><%= link_to("/#{params[:blog]}", blog_url(params[:blog])) if params[:blog] %></h4>
+     <%= yield %>
+  </div>
+    
+    <div id="footer">
+      <p>&copy; 2009 <%= auto_link('www.mekdigital.com') %> - <%= link_to("GitHub::Fork", "http://github.com/etozzato/Simple-Rails-Blog") %></p>
+    </div>
+  </div>
+  <span id="loading_indicator"><%= image_tag("ajax-loader.gif") %></span>
+
+<script type="text/javascript">
+
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mekdigital/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
+
+</body>
+</html>

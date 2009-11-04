@@ -11,6 +11,10 @@ class Blog < ActiveRecord::Base
   
   named_scope :recently_updated, :order => "posts_count DESC, updated_at DESC", :conditions => "posts_count > 0", :limit => 10
   
+  def item_count
+    posts_count
+  end
+  
   def set_temporary_name
     update_attribute(:name, "Unamed Blog #{"%05d" % self.id}")
   end

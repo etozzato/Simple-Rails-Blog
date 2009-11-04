@@ -1,31 +1,99 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
   <title>BLOG! <%= @blog.name if @blog %><%= @post.blog.name if @post %></title>
-  <%= stylesheet_link_tag "main.css" %>
-  <%= javascript_include_tag 'jquery.js', 'jquery.livequery.js', 'jquery.form.js', 'application' %>
-</head>
-<body>
-  <div id="container">
-    <%= render :partial => "shared/flash_notices" %>
+  <link rel="Shortcut Icon" type="image/gif" href="images/favicon.gif" >
+    <%= stylesheet_link_tag "mekdigital.css" %>
+    <%= stylesheet_link_tag "embed.css" %>
+    <%= javascript_include_tag 'jquery.js', 'jquery.livequery.js', 'jquery.form.js', 'application' %>
+  <script type="text/javascript">
+  	<%= 'var disqus_developer = 1;' if Rails.env.development? %>
+  </script>
+  <style>
+   body {background-color:rgb(<%= rand(150) + 50 %>, <%= rand(150) + 50 %>, <%= rand(150) + 50 %>);}
+  </style>
+  </head>
+  <body>
 
-    <div id="right">
-    <%= render :partial => "shared/user_box" %>
+<%= render :partial => "shared/flash_notices" %>
+
+<div id="menu" class="menu">
+        <div id="menu-bar">
+         
+              <ul>
+              <li>
+                <a id="menu-0" href="http://mekdigital.com/"></a>
+              </li>
+          
+              <li>
+                <a id="menu-1" style='background-position: -120px 0;' href=""></a>
+              </li>
+          
+              <li>
+                <a id="menu-2" href="http://mekdigital.com/?background"></a>
+              </li>
+
+              <li>
+                <a id="menu-4" href="http://mekdigital.com/?contact"></a>
+              </li>
+        </ul>  
+
+        </div>
+      </div>
+
+
+    <div id="box" class="box">
+      
+      <div id="container" class="container">
+        <div class="inner_box">
+  
+          <div class='column'>
+            <div class='page_title'>
+              <%= link_to("blog", homepage_url) %><%= link_to("/#{params[:blog]}", blog_url(params[:blog])) if params[:blog] %>
+              <%= "#{params[:controller]}/#{params[:action]}" if params[:controller].include?('dash') %>
+            </div>
+            <%= yield %>
+            
+            <div id="login">
+              <%= render :partial => "shared/login" %>
+            </div>
+            <div style="clear:both;"></div>
+            
+          </div>
+
+        </div>
+
+      </div>
+      <br>
+      <div id="footer">
+        <p>made with ruby on rails. On <%= link_to("GitHub", "http://github.com/etozzato/Simple-Rails-Blog") %></p>
+      </div>
+      <div style="clear:both;"></div>
+      <br>
+
+      
     </div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-267308-3";
+urchinTracker();
+</script>
+<script type="text/javascript">
 
-    <div style="clear:both;"></div>
-    
-  <div id="container-box">
-    <h4><% unless current_blog%><%= link_to("homepage", homepage_url) %> | <% end %> <%= params[:controller] %>/<%= params[:action] %></h4>
-     <%= yield %>
-  </div>
-    
-    <div id="footer">
-      <p>&copy; 2009 <%= auto_link('www.mekdigital.com') %> - <%= link_to("GitHub::Fork", "http://github.com/etozzato/Simple-Rails-Blog") %></p>
-    </div>
-  </div>
-  <span id="loading_indicator"><%= image_tag("ajax-loader.gif") %></span>
-
-</body>
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/mekdigital/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>  
+  </body>
 </html>
