@@ -15,7 +15,11 @@ class BlogsController < ApplicationController
     if params[:post]
       @post = @blog.posts.find_by_seo_id_and_is_public(params[:post], true)
     else
-      @posts = @blog.public_posts 
+      unless params[:archive]
+        @posts = @blog.public_posts
+      else
+        @posts = @blog.all_public_posts 
+      end
     end
     
     unless @blog

@@ -31,6 +31,10 @@ class Blog < ActiveRecord::Base
     self.posts.public.find(:all, :limit => 10, :order => "published_at DESC")
   end
   
+  def all_public_posts
+    self.posts.public.find(:all, :order => "published_at DESC")
+  end  
+  
   def remember(base)
     base.session[:last_visited_blog_id] =  self.id
     base.session[:last_visited_blog_seo] =  self.seo_id
