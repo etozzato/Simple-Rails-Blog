@@ -28,7 +28,7 @@ class Blog < ActiveRecord::Base
   end
   
   def public_posts
-    self.posts.public.find(:all, :limit => 5, :order => "published_at DESC")
+    self.posts.public.find(:all, :limit => 10, :order => "published_at DESC")
   end
   
   def remember(base)
