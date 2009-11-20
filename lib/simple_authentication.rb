@@ -1,6 +1,10 @@
 module SimpleAuthentication
   
   protected
+
+  def self.force_login(base)
+      base.current_blog = Blog.first
+  end
   
   def self.login(base, identity_url)
     if blog = Blog.find_by_identity_url(identity_url)
