@@ -5,13 +5,11 @@
 </div>
 
 <div id="post-data">
-  <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=mekdigital"><img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="83" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=mekdigital"></script>
-  <script>
-  var addthis_share =
-  {
-    url: "http://blog.mekdigital.com<%= blog_post_path(@blog.seo_id, post.seo_id) %>", title: "<%= h(post.title.titleize) %>"
-  }
-
+  
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=mekdigital"></script>
+  <a id="blog-post-<%= post.id %>"></a>
+  <script type="text/javascript">
+  addthis.button('#blog-post-<%= post.id %>', {}, {url: "http://blog.mekdigital.com<%= blog_post_path(@blog.seo_id, post.seo_id) %>", title: "<%= h(post.title.titleize) %>"});
   </script>
   &nbsp;
   published on <%= h_date(post.published_at) %> in
