@@ -15,8 +15,8 @@ ActionController::Routing::Routes.draw do |map|
   end
   map.dashboard '/dashboard', :controller => "dashboard/blog"
   
-  map.blog ':blog', :controller => 'blogs', :action => 'show'
-  map.blog_post ':blog/:post', :controller => 'blogs', :action => 'show'
+  map.blog ':blog.:format', :controller => 'blogs', :action => 'show'
+  map.blog_post ':blog/:post.:format', :controller => 'blogs', :action => 'show'
 
   map.archive ':blog/archive', :controller => 'blogs', :action => 'show', :archive => true
   

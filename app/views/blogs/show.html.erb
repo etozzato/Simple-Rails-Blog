@@ -2,6 +2,10 @@
   <h5 class='subtitle'><%= pluralize(@blog.public_count, 'post') %> in this blog since <%= h_date(@blog.created_at) %></h5>
 <% end %>
 
+<p>
+  <%= link_to "RSS Feed", formatted_blog_url(@blog.seo_id, :rss) %>
+</p>
+
 <div id="post_list">
   <%= render :partial => 'post', :collection => @posts if @posts %>
   <%= render :partial => "posts/show", :object => @post if @post %>
