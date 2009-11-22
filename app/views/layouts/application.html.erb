@@ -52,6 +52,8 @@
             <div class='page_title'>
               <%= link_to("blog", homepage_url) %><%= link_to("/#{params[:blog]}", blog_url(params[:blog])) if params[:blog] %>
               <%= "#{params[:controller]}/#{params[:action]}" if params[:controller].include?('dash') %>
+              <%= link_to image_tag('feed.gif'), formatted_blog_url(@blog.seo_id, :rss) %>
+              
             </div>
             <%= yield %>
             
