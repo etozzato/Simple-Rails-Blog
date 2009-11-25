@@ -54,8 +54,8 @@
               <%= "#{params[:controller]}/#{params[:action]}" if params[:controller].include?('dash') %>
               <%= link_to image_tag('feed.gif'), blog_url(@blog.seo_id, :rss) if @blog %>
             </div>
-            <a href="http://feeds.feedburner.com/MekdigitalBlogRubyOnRailsNotes">
-              <img src="http://feeds.feedburner.com/~fc/MekdigitalBlogRubyOnRailsNotes?bg=FFFFFF&amp;fg=333333&amp;anim=0" height="26" width="88" style="border:0" alt="" />
+            <a href="http://feeds.feedburner.com/ruby_notes">
+              <img src="http://feeds.feedburner.com/~fc/ruby_notes?bg=FFFFFF&amp;fg=333333&amp;anim=0" height="26" width="88" style="border:0" alt="" />
             </a>
             
             <%= yield %>
