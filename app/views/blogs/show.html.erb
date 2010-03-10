@@ -8,6 +8,6 @@
 </div>
 
 <div id="bottom-page-link">
-  <%= link_to("Older Posts", archive_url(@blog.seo_id)) if @blog.public_count > 10 %>
+  <%= will_paginate(@posts) %>
 </div>
 <div style="clear:both;"></div>

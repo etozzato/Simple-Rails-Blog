@@ -36,11 +36,7 @@ class BlogsController < ApplicationController
         redirect_to blog_url(@blog.seo_id) and return
       end
     else
-      unless params[:archive]
-        @posts = @blog.public_posts
-      else
-        @posts = @blog.all_public_posts 
-      end
+      @posts = @blog.posts.public.paginate(:page => params[:page] || 1, :per_page => 5)
     end
     
   end
