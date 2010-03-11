@@ -1,74 +1,74 @@
 body {
-	margin:0px;
-	margin-top:20px;
-	text-align:center;
-	font-family: "Book Antiqua", "Bookman Old Style", Georgia, "Times New Roman", Times, serif;
-	font-size:16px;
+  margin:0px;
+  margin-top:20px;
+  text-align:center;
+  font-family: "Book Antiqua", "Bookman Old Style", Georgia, "Times New Roman", Times, serif;
+  font-size:16px;
 }
 
 
 image {
-	border:0px;
+  border:0px;
 }
 
 
 .box {
-	margin-top:20px;
+  margin-top:20px;
 }
 
 .container {
-	margin: 0 auto;
-	background:#FFF;
-	text-align:left;
-	border:1px solid #fff;
-	padding:5px;
-	width:840px;
+  margin: 0 auto;
+  background:#FFF;
+  text-align:left;
+  border:1px solid #fff;
+  padding:5px;
+  width:840px;
 }
 
 
 .inner_box {
-	background: #fff;
-	min-height:500px;
-	padding:5px;
-	text-align:justify;
-	color: #333 !important;
-	font-size:105%;
+  background: #fff;
+  min-height:500px;
+  padding:5px;
+  text-align:justify;
+  color: #333 !important;
+  font-size:105%;
 }
 
 
 .inner_box a {
-	color:#333;
-	text-decoration:none;
+  color:#333;
+  text-decoration:underline;
 }
 
 
 .inner_box a:hover {
-	color:orange;
+  color:orange;
 }
 
 
 .page_title {
-	color:#123456;
-	padding:1px;
-	padding-right:3px;
-	border-bottom:1px solid #333;
-	text-align:right;
-	font-size:120%;
-	margin-bottom:10px;
-	background:url('http://www.mekdigital.com/img/m.gif') left no-repeat;
+  color:#123456;
+  padding:1px;
+  padding-right:3px;
+  border-bottom:1px solid #333;
+  text-align:right;
+  font-size:120%;
+  margin-bottom:10px;
+  background:url('http://www.mekdigital.com/img/m.gif') left no-repeat;
 
 }
 
 
 .box, input {
-	font-size:80%
-	color:#333;
+  font-size:80%
+  color:#333;
 }
 
 blockquote {
-	background:#fff;
-	border:1px solid #333;
-	padding:15px;
+  background:#fff;
+  border:1px solid #333;
+  padding:15px;
 }
 
 code {
@@ -78,120 +78,120 @@ code {
 }
 
 .post_title {
-	background:#333;
-	color:#fff;
-	padding:5px;
-	border:0px solid #fff;
-	border-bottom:0px solid #333;
-	border-right:0px solid #333;
-	text-align:left;
-	font-size:110%;
+  background:#333;
+  color:#fff;
+  padding:5px;
+  border:0px solid #fff;
+  border-bottom:0px solid #333;
+  border-right:0px solid #333;
+  text-align:left;
+  font-size:110%;
 }
 
 .post_title a {
-	color:#ebebeb;
-	text-decoration:none;
+  color:#ebebeb;
+  text-decoration:none;
 }
 
 .post_title a:hover {
-	color:#orange;
+  color:#orange;
 }
 
 .post_date {
-	text-align:right;
-	font-size:75%;
-	padding:5px;
-	padding-right:10px;
-	color:#333;
+  text-align:right;
+  font-size:75%;
+  padding:5px;
+  padding-right:10px;
+  color:#333;
 }
 
 
 .post_entry {
-	font-size:90%;
-	background:#ebebeb;
-	padding:10px;
-	border:1px solid #ccc;
+  font-size:90%;
+  background:#ebebeb;
+  padding:10px;
+  border:1px solid #ccc;
 
 }
 
 .post_meta {
-	font-size:75%;
-	padding:5px;
-	padding-left:10px;
-	color:#333;
-	margin-bottom:40px;
+  font-size:75%;
+  padding:5px;
+  padding-left:10px;
+  color:#333;
+  margin-bottom:40px;
 
 }
 
 
 
 .post_comment_header {
-	margin-top:50px;
-	font-weight:bold;
-	padding:1px;
-	padding-right:3px;
-	border-bottom:1px solid #ccc;
-	text-align:right;
-	font-size:95%;
-	margin-bottom:10px;
+  margin-top:50px;
+  font-weight:bold;
+  padding:1px;
+  padding-right:3px;
+  border-bottom:1px solid #ccc;
+  text-align:right;
+  font-size:95%;
+  margin-bottom:10px;
 }
 
 .add_a_comment {
-	margin-top:60px;
-	font-weight:bold;
-	padding:1px;
-	font-size:95%;
-	margin-bottom:10px;
-	text-align:right;
+  margin-top:60px;
+  font-weight:bold;
+  padding:1px;
+  font-size:95%;
+  margin-bottom:10px;
+  text-align:right;
 }
 
 .odd {
-	font-size:80%;
-	background:#fff;
-	padding-top:10px;
-	border-bottom:1px solid #ccc;
-	margin-top:15px;
+  font-size:80%;
+  background:#fff;
+  padding-top:10px;
+  border-bottom:1px solid #ccc;
+  margin-top:15px;
 }
 
 .even {
-	font-size:80%;
-	font-size:80%;
-	background:#fff;
-	padding-top:10px;
-	border-bottom:1px solid #ccc;
-	margin-top:15px;
+  font-size:80%;
+  font-size:80%;
+  background:#fff;
+  padding-top:10px;
+  border-bottom:1px solid #ccc;
+  margin-top:15px;
 }
 
 .mycomment {
-	font-size:80%;
-	font-size:80%;
-	background:#fff;
-	padding-top:10px;
-	border-bottom:1px solid #ccc;
-	margin-top:15px;
-	background:url('http://www.mekdigital.com/img/m.gif') right bottom no-repeat
+  font-size:80%;
+  font-size:80%;
+  background:#fff;
+  padding-top:10px;
+  border-bottom:1px solid #ccc;
+  margin-top:15px;
+  background:url('http://www.mekdigital.com/img/m.gif') right bottom no-repeat
 
-	
+  
 }
 .comment_date {
 }
 
 .column {
-	padding-top:10px;
-	padding-right:25px;
-	padding-left:25px;
+  padding-top:10px;
+  padding-right:25px;
+  padding-left:25px;
 }
 
 
 .menu {
-	margin: 0 auto;
-	color: #FFF;
-	text-align:left;
-	border:1px solid #ebebeb;
-	padding:0px;
-	width:850px;
-	min-height: 30px;
-	background:url('../images/mekdigital_logo.png') right no-repeat #fff
+  margin: 0 auto;
+  color: #FFF;
+  text-align:left;
+  border:1px solid #ebebeb;
+  padding:0px;
+  width:850px;
+  min-height: 30px;
+  background:url('../images/mekdigital_logo.png') right no-repeat #fff
 }
 
 #menu-bar ul {
@@ -225,7 +225,7 @@ code {
 }
 
 #menu-bar #menu-1:hover {
-	background-position: -120px 0;
+  background-position: -120px 0;
 }
 
 #menu-bar #menu-2 {
@@ -254,44 +254,44 @@ code {
 }
 
 .active {
-	background-position: -120px 0;
+  background-position: -120px 0;
 }
 
 img {
-	border:0px;
+  border:0px;
 }
 
 img.picture { border:1px solid #ccc;}
 
 .menu a {
-	color:#FFF;
+  color:#FFF;
 }
 
 
 .menu a:hover {
-	color:orange;
+  color:orange;
 }
 
 
 .note {
-	color:red;
-	padding-top:100px;
-	font-size:80%;
-	text-align:center;
+  color:red;
+  padding-top:100px;
+  font-size:80%;
+  text-align:center;
 }
 
 
 .hilight {
-	color:#123456;
+  color:#123456;
 }
 
 /*
-BLOG CODE	
+BLOG CODE  
 */
 
 .gist {
   color: #000;
-	font-size:9pt;
+  font-size:9pt;
 }
 
 #error-box a {color:#8A1A28;}
@@ -328,10 +328,13 @@ BLOG CODE
 #cloud-label {float:left;}
 #cloud-container {float:left;margin-left:200px;}
 
-.subtitle {color:#ddd; font-size:11pt; font-style:italic; font-weight:normal;}
+.subtitle {color:999;; font-size:11pt; font-style:italic; font-weight:normal;}
 .shift {margin-left:10px; margin-top:-20px;}
 
 #login { float:right; padding:5px; margin-top:50px;}
 
 input.post {width:80%;}
 textarea.post {width:80%;}
+.pagination {display:inline;}
+
+a.ghost {decoration:none;color:#eee;}

@@ -8,6 +8,6 @@
 </div>
 
 <div id="bottom-page-link">
-  <%= will_paginate(@posts) if @posts %>
+  <%= 'page: ' + will_paginate(@posts, :previous_label => '', :next_label => '', :class => 'pagination') if @posts && @posts.total_pages > 1 %>
 </div>
 <div style="clear:both;"></div>
