@@ -314,9 +314,13 @@ module WillPaginate
       @template.content_tag :span, text, attributes
     end
 
+    def url_for(page)
+      "?page=#{page}"
+    end
+
     # Returns URL params for +page_link_or_span+, taking the current GET params
     # and <tt>:params</tt> option into account.
-    def url_for(page)
+    def old_url_for(page)
       page_one = page == 1
       unless @url_string and !page_one
         @url_params = {}

@@ -8,6 +8,6 @@
 </div>
 
 <div id="bottom-page-link">
-  <%= will_paginate(@posts) %>
+  <%= will_paginate(@posts) if @posts %>
 </div>
 <div style="clear:both;"></div>
