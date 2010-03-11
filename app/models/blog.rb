@@ -1,6 +1,6 @@
 class Blog < ActiveRecord::Base
   
-  has_many :posts, :order => "published_at DESC, created_at DESC"
+  has_many :posts, :order => "created_at DESC ,published_at DESC"
   
   after_create :set_temporary_name
   before_update :set_seo_id
