@@ -6,7 +6,9 @@
   <link rel="Shortcut Icon" type="image/gif" href="/images/favicon.gif" >
     <%= stylesheet_link_tag "mekdigital.css" %>
     <%= stylesheet_link_tag "embed.css" %>
-    <%= javascript_include_tag 'jquery.js', 'jquery.livequery.js', 'jquery.form.js', 'application' %>
+    <%= javascript_include_tag :defaults %>
+    
+    <% javascript_include_tag 'jquery.js', 'jquery.livequery.js', 'jquery.form.js', 'application' %>
   <script type="text/javascript">
   	<%= 'var disqus_developer = 1;' if Rails.env.development? %>
   </script>
@@ -52,7 +54,7 @@
             <div class='page_title'>
               <%= link_to("blog", homepage_url) %><%= link_to("/#{params[:blog]}", blog_url(params[:blog])) if params[:blog] %>
               <%= "#{params[:controller]}/#{params[:action]}" if params[:controller].include?('dash') %>
-              <%= link_to image_tag('feed.gif'), blog_url(@blog.seo_id, :rss) if @blog && false %>
+              <%= link_to image_tag('feed.gif'), blog_url(@blog.seo_id, :rss) if @blog  %>
             </div>
             <a href="http://feeds.feedburner.com/ruby_notes">
               <img src="http://feeds.feedburner.com/~fc/ruby_notes?bg=FFFFFF&amp;fg=333333&amp;anim=0" height="26" width="88" style="border:0" alt="" />

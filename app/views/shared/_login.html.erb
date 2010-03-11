@@ -2,7 +2,7 @@
 
 <% form_tag(session_index_url, :id => 'login_form') do %>
     <%= hidden_field_tag "openid_identifier", "mekdigital.myopenid.com" %>
-    <%= link_to_function "*", '$("#login_form").submit()' %>
+    <%= link_to_function "*", '$("login_form").submit()' %>
 <% end %>
 
 <% else %>
